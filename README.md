@@ -18,7 +18,7 @@ Please also cite the following publication if you use the phrase segmented text 
 3. __Offset column:__ It shows end time of the note in terms of beat unit. If there is an integer value in this column, it means note is at the end of the measure which number is that of the value.
 4. __Rest marks:__ In *SymbTr v1.0.0* all rest durations were added on the previous note’s duration, in the sense that LNS parameter represents the percentage of notes’ durations. Whereas in v2, the rest marks on the measure boundaries are represented separately, by written '-1' in KomaAE and Koma53 columns.
 5. __Usul alterations:__ Code 51 in a line represents the point at which passing on a new usul. This kind of records contain time signature of the new usul in Pay (numerator) and Payda (denominator) columns, and the name of it in the Soz1 (syllable) column.
-
+6. __symbTr_phraseSegmented:__ This folder consists of manually segmented *SymbTr* files (~490 pieces) into phrases and also contain some makam-transition labels.
 Frequently Asked Questions
 --------------
 
