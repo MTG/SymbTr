@@ -27,4 +27,4 @@ Frequently Asked Questions
 
 #### Where are the PDFs?
 
-Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the CompMusic website (http://compmusic.upf.edu/node/140). You can also follow the link in the corresponding /PDF folder to download the files.
+Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the SymbTr-pdf repository in Github (https://github.com/MTG/SymbTr-pdf). The repository is also added as submodule to this repository.
