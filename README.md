@@ -35,5 +35,6 @@ The beams are not currently connected, because we do not include any beam inform
 
 Until then, you can select automatic beaming in your score editor. In Musescore, autobeaming can be done by:
 - selecting all notes, and clicking on the Auto option in Note-Beam Properties in Master Palette.
+
 or
 - selecting all notes and clicking on Reset Beam Mode under the Layout menu.
