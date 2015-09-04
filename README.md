@@ -28,3 +28,12 @@ Frequently Asked Questions
 #### Where are the PDFs?
 
 Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the SymbTr-pdf repository in Github (https://github.com/MTG/SymbTr-pdf). The repository is also added as submodule to this repository.
+
+#### When I open the MusicXML notes in a scoe editor, the note beams are not connected. How can I fix it.
+
+The beams are not currently connected, because we do not include any beam information in the MsuicXML files. Ideally the beams should be connected according to the beat locations of the usul of the piece. We plan to add this in a future release.
+
+Until then, you can select automatic beaming in your score editor. In Musescore, autobeaming can be done by:
+- selecting all notes, and clicking on the Auto option in Note-Beam Properties in Master Palette.
+or
+- selecting all notes and clicking on Reset Beam Mode under the Layout menu.
