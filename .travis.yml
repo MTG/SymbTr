@@ -1,0 +1,5 @@
+# we only need to point to python for the tests to run
+language: python
+
+# command to run tests
+script: nosetests extras/validatesymbtr.py
