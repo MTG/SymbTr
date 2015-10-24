@@ -17,6 +17,7 @@ Please cite the following publication if you use the data collection in your wor
 7. Added work, makam, usul, form, composer and lyricist metadata to MusicBrainz.
 8. Renamed many files such that the makam, usul, form and composer slugs in the filename reflects the names in the mu2 file.
 9. Corrected the metadata of several compositions.
+10. Added automation scripts to _extras/_ folder
 
 #### What is new in *SymbTr v2.1*
 1. Merged duplicate makam, usul, form and composer names
