@@ -5,9 +5,20 @@
 Given the lack of machine readable symbolic data to perform computational studies of Turkish Makam music, we have put together a collection of machine readable symbolic scores, *SymbTr*, which contains data in text, MusicXML, PDF, MIDI and mu2 formats. This is raw data drawn from reliable sources that consists of musical pieces from Turkish art and folk music. Special care has been taken to select works covering a broad historical time span while being works that are still performed today.
 
 Please cite the following publication if you use the data collection in your work:
-```Karaosmanoğlu, M. K. (2012). A Turkish makam music symbolic database for music information retrieval: SymbTr. Proc. Int. Society for Music Information Retrieval (ISMIR).```
+```Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.```
 
-#### What is new in *SymbTr v2.1.0*
+#### What is new in *SymbTr v2.2*
+1. txt and mu2 formats are now encoded in UTF-8.
+2. Regenerated and validated the MusicXML files.
+3. Fixed errors in the offset column.
+4. Corrected/curated the implicit and explicit structure markings in the lyrics column of SymbTr-txt files.
+5. Corrected the contents of several scores (notes, durations etc.).
+6. Converted "Sus"s to "Es" for consistency (both mean Rest in Turkish).
+7. Added work, makam, usul, form, composer and lyricist metadata to MusicBrainz.
+8. Renamed many files such that the makam, usul, form and composer slugs in the filename reflects the names in the mu2 file.
+9. Corrected the metadata of several compositions.
+
+#### What is new in *SymbTr v2.1*
 1. Merged duplicate makam, usul, form and composer names
 2. If the makam, form, usul and the composers are identical for two distinct compositions they are indexed with numbers in the end of the "lyrics" fields
 3. Fixed typos in the score names
@@ -15,7 +26,7 @@ Please cite the following publication if you use the data collection in your wor
 5. Fixed errors in the field separations and the formatting ("--"s)
 6. Removed special characters in the filenames such as ' and .
 
-#### What is in *SymbTr v2.0.0*
+#### What is in *SymbTr v2.0*
 1. __2200 pieces:__ 150 distinct makams, about 100 usuls, 50 forms, 865,000 musical notes, 80 hours nominal playback time.
 2. __MusicXML and mu2 formats:__ MusicXML is a standard open format for exchanging digital sheet music, which can be read by popular music notation software such as MuseScore, Finale and Sibelius. mu2 is a format, which can be read by Mus2, the microtonal notation software. 
 3. __Offset column:__ It shows end time of the note in terms of beat unit. If there is an integer value in this column, it means note is at the end of the measure which number is that of the value.
@@ -33,7 +44,7 @@ Adding the PDFs to the repository would make it fairly bulky. You can download t
 
 The beams are not currently connected, because we do not include any beam information in the MusicXML files. Ideally the beams should be connected according to the beat locations of the usul of the piece. We plan to add this in a future release.
 
-Until then, you can select automatic beaming in your score editor. In Musescore, autobeaming can be done by:
+Until then, you can select automatic beaming in your score editor. For example, autobeaming can be done in Musescore 2.0 by:
 - selecting all notes, and clicking on the Auto option in Note-Beam Properties in Master Palette.
 
 or
