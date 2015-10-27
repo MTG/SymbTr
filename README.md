@@ -2,22 +2,28 @@
 ======
 #### Turkish Makam Music Symbolic Data Collection
 
-Given the lack of machine readable symbolic data to perform computational studies of Turkish Makam music, we have put together a collection of machine readable symbolic scores, *SymbTr*, which contains data in text, MusicXML, PDF, MIDI and mu2 formats. This is raw data drawn from reliable sources that consists of musical pieces from Turkish art and folk music. Special care has been taken to select works covering a broad historical time span while being works that are still performed today.
+Given the lack of machine readable symbolic data to perform computational studies of Turkish Makam music, we have put together a collection of machine readable symbolic scores called *SymbTr*. Currently, the SymbTr collection consists of 2205 pieces from 155 makams, 84 usuls, 59 forms, about 865.000 musical notes and 80 hours nominal playback time. 
+
+The data is drawn from reliable sources that consists of musical pieces from Turkish art and folk music. Special care has been taken to select works covering a broad historical time span while being works that are still performed today. 
+
+SymbTr-scores are provided in text, MusicXML, PDF, MIDI and mu2 formats.
+The latest version also includes music scores in MusicXML and mu2 formats. MusicXML is a standard open format for exchanging digital sheet music, which can be read by popular music notation software such as MuseScore, Finale and Sibelius. mu2 is a format, which can be read by Mus2, the microtonal notation software.
 
 Please cite the following publication if you use the data collection in your work:
 ```Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.```
 
 #### What is new in *SymbTr v2.2*
-1. txt and mu2 formats are now encoded in UTF-8.
-2. Regenerated and validated the MusicXML files.
-3. Fixed errors in the offset column.
-4. Corrected/curated the implicit and explicit structure markings in the lyrics column of SymbTr-txt files.
-5. Corrected the contents of several scores (notes, durations etc.).
-6. Converted "Sus"s to "Es" for consistency (both mean Rest in Turkish).
-7. Added work, makam, usul, form, composer and lyricist metadata to MusicBrainz.
-8. Renamed many files such that the makam, usul, form and composer slugs in the filename reflects the names in the mu2 file.
-9. Corrected the metadata of several compositions.
-10. Added automation scripts to _extras/_ folder
+1. Added 5 new compositions
+2. txt and mu2 formats are now encoded in UTF-8.
+3. Regenerated (and validated) the MusicXML files.
+4. Fixed errors in the offset column.
+5. Corrected the implicit and explicit structure markings in the lyrics column of SymbTr-txt files.
+6. Corrected the contents of several scores (notes, durations etc.).
+7. Converted "Sus"s to "Es" for consistency (both mean "Rest" in Turkish).
+8. Added work, makam, usul, form, composer and lyricist metadata to MusicBrainz.
+9. Renamed many files such that the makam, usul, form and composer slugs in the filename reflects the names in the mu2 file.
+10. Corrected the metadata of several compositions.
+11. Added automation scripts to _extras/_ folder
 
 #### What is new in *SymbTr v2.1*
 1. Merged duplicate makam, usul, form and composer names
@@ -39,7 +45,13 @@ Frequently Asked Questions
 
 #### Where are the PDFs?
 
-Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the SymbTr-pdf repository in Github (https://github.com/MTG/SymbTr-pdf). The repository is also added as submodule to this repository.
+Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the [SymbTr-pdf repository](https://github.com/MTG/SymbTr-pdf). The repository is also added as submodule to this repository.
+
+#### Is there an easy way to get the section information, especially for vocal sections?
+You can use the [symbtrdataextractor package](https://github.com/sertansenturk/symbtrdataextractor) to get the section information.
+
+#### How can I fetch the metadata in MusicBrainz?
+[symbtrdataextractor](https://github.com/sertansenturk/symbtrdataextractor) can also be called with MBID input, which will query the desired metadata in MusicBrainz. You can obtain the relevant mbid for each composition from [symbTr_mbid.json](https://github.com/MTG/SymbTr/blob/master/symbTr_mbid.json). 
 
 #### When I open the MusicXML notes in a score editor, the note beams are not connected. How can I fix it?
 
