@@ -1755,13 +1755,22 @@
     <measure number="10">
       <attributes>
         <time>
-          <beats>7</beats>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -1836,6 +1845,14 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="11">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>C</step>
@@ -1896,14 +1913,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="11">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -2063,6 +2072,18 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="12">
+      <attributes>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>D</step>
@@ -2070,7 +2091,7 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
+        <lyric name="Section2">
           <syllabic>end</syllabic>
           <text>sin  </text>
           <end-line/>
@@ -2081,17 +2102,14 @@
         <duration>96</duration>
         <type>quarter</type>
       </note>
-    </measure>
-    <measure number="12">
-      <attributes>
-        <time>
-          <beats>7</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -2101,12 +2119,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section2">
+        <lyric name="">
           <syllabic>single</syllabic>
           <text>Ah </text>
-          <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="13">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -2190,6 +2210,14 @@
           <text>dı</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="14">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>E</step>
@@ -2226,14 +2254,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="13">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -2395,6 +2415,9 @@
           <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="15">
+      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -2421,9 +2444,6 @@
           <end-line/>
         </lyric>
       </note>
-    </measure>
-    <measure number="14">
-      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -2431,7 +2451,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section3">
+        <lyric name="">
           <text></text>
           <end-line/>
         </lyric>
@@ -2445,6 +2465,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2456,6 +2477,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2468,6 +2490,7 @@
         <lyric name="">
           <syllabic>begin</syllabic>
           <text>Mev</text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2480,6 +2503,7 @@
         <lyric name="">
           <syllabic>end</syllabic>
           <text>lam </text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2492,6 +2516,7 @@
         <lyric name="">
           <syllabic>begin</syllabic>
           <text>se</text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2504,6 +2529,7 @@
         <lyric name="">
           <syllabic>end</syllabic>
           <text>ni </text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2515,6 +2541,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2526,6 +2553,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2538,10 +2566,11 @@
         <dot/>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
     </measure>
-    <measure number="15">
+    <measure number="16">
       <attributes/>
       <note>
         <pitch>
@@ -2550,8 +2579,9 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric name="Section3">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -2745,7 +2775,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="16">
+    <measure number="17">
       <attributes/>
       <note>
         <pitch>
@@ -2928,16 +2958,25 @@
         <type>eighth</type>
       </note>
     </measure>
-    <measure number="17">
+    <measure number="18">
       <attributes>
         <time>
-          <beats>7</beats>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -3000,6 +3039,14 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="19">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>C</step>
@@ -3060,14 +3107,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="18">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -3239,6 +3278,18 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="20">
+      <attributes>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>D</step>
@@ -3247,23 +3298,20 @@
         <duration>288</duration>
         <type>half</type>
         <dot/>
-        <lyric name="">
+        <lyric name="Section5">
           <syllabic>end</syllabic>
           <text>yim  </text>
           <end-line/>
         </lyric>
       </note>
-    </measure>
-    <measure number="19">
-      <attributes>
-        <time>
-          <beats>7</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -3273,12 +3321,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section5">
+        <lyric name="">
           <syllabic>single</syllabic>
           <text>Ah </text>
-          <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="21">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -3362,6 +3412,14 @@
           <text>da</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="22">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>E</step>
@@ -3398,14 +3456,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="20">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -3594,7 +3644,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="21">
+    <measure number="23">
       <attributes/>
       <note>
         <pitch>
@@ -3799,7 +3849,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="22">
+    <measure number="24">
       <attributes/>
       <note>
         <pitch>
@@ -3989,7 +4039,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="23">
+    <measure number="25">
       <attributes/>
       <note>
         <pitch>
@@ -4178,7 +4228,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="24">
+    <measure number="26">
       <attributes/>
       <note>
         <pitch>
@@ -4367,7 +4417,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="25">
+    <measure number="27">
       <attributes/>
       <note>
         <pitch>
@@ -4597,7 +4647,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="26">
+    <measure number="28">
       <attributes/>
       <note>
         <pitch>
@@ -4829,7 +4879,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="27">
+    <measure number="29">
       <attributes/>
       <note>
         <pitch>
@@ -4927,7 +4977,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="28">
+    <measure number="30">
       <attributes/>
       <note>
         <pitch>
@@ -5131,7 +5181,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="29">
+    <measure number="31">
       <attributes/>
       <note>
         <pitch>
@@ -5316,16 +5366,25 @@
         <type>eighth</type>
       </note>
     </measure>
-    <measure number="30">
+    <measure number="32">
       <attributes>
         <time>
-          <beats>7</beats>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -5400,6 +5459,14 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="33">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>C</step>
@@ -5460,14 +5527,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="31">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -5627,6 +5686,18 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="34">
+      <attributes>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>D</step>
@@ -5634,7 +5705,7 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
+        <lyric name="Section8">
           <syllabic>end</syllabic>
           <text>sin  </text>
           <end-line/>
@@ -5645,17 +5716,14 @@
         <duration>96</duration>
         <type>quarter</type>
       </note>
-    </measure>
-    <measure number="32">
-      <attributes>
-        <time>
-          <beats>7</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -5665,12 +5733,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section8">
+        <lyric name="">
           <syllabic>single</syllabic>
           <text>Ah </text>
-          <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="35">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -5754,6 +5824,14 @@
           <text>dı</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="36">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>E</step>
@@ -5790,14 +5868,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="33">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -5959,6 +6029,9 @@
           <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="37">
+      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -5985,9 +6058,6 @@
           <end-line/>
         </lyric>
       </note>
-    </measure>
-    <measure number="34">
-      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -5995,7 +6065,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section9">
+        <lyric name="">
           <text></text>
           <end-line/>
         </lyric>
@@ -6009,6 +6079,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6020,6 +6091,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6032,6 +6104,7 @@
         <lyric name="">
           <syllabic>begin</syllabic>
           <text>Mev</text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6044,6 +6117,7 @@
         <lyric name="">
           <syllabic>end</syllabic>
           <text>lam </text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6056,6 +6130,7 @@
         <lyric name="">
           <syllabic>begin</syllabic>
           <text>se</text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6068,6 +6143,7 @@
         <lyric name="">
           <syllabic>end</syllabic>
           <text>ni </text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6079,6 +6155,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6090,6 +6167,7 @@
         <type>eighth</type>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6102,10 +6180,11 @@
         <dot/>
         <lyric name="">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
     </measure>
-    <measure number="35">
+    <measure number="38">
       <attributes/>
       <note>
         <pitch>
@@ -6114,8 +6193,9 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric name="Section9">
           <text></text>
+          <end-line/>
         </lyric>
       </note>
       <note>
@@ -6309,7 +6389,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="36">
+    <measure number="39">
       <attributes/>
       <note>
         <pitch>
@@ -6492,16 +6572,25 @@
         <type>eighth</type>
       </note>
     </measure>
-    <measure number="37">
+    <measure number="40">
       <attributes>
         <time>
-          <beats>7</beats>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -6564,6 +6653,14 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="41">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>C</step>
@@ -6624,14 +6721,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="38">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -6803,6 +6892,18 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="42">
+      <attributes>
+        <time>
+          <beats>3</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>D</step>
@@ -6811,23 +6912,20 @@
         <duration>288</duration>
         <type>half</type>
         <dot/>
-        <lyric name="">
+        <lyric name="Section11">
           <syllabic>end</syllabic>
           <text>yim  </text>
           <end-line/>
         </lyric>
       </note>
-    </measure>
-    <measure number="39">
-      <attributes>
-        <time>
-          <beats>7</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Devr-I Hindî</words>
+        </direction-type>
+      </direction>
+      <direction placement="above">
+        <direction-type>
+          <words default-y="35"/>
         </direction-type>
       </direction>
       <note>
@@ -6837,12 +6935,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="Section11">
+        <lyric name="">
           <syllabic>single</syllabic>
           <text>Ah </text>
-          <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="43">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -6926,6 +7026,14 @@
           <text>da</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="44">
+      <attributes>
+        <time>
+          <beats>9</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
       <note>
         <pitch>
           <step>E</step>
@@ -6962,14 +7070,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="40">
-      <attributes>
-        <time>
-          <beats>9</beats>
-          <beat-type>4</beat-type>
-        </time>
-      </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="35">Usul: Aksak (9/4)</words>
@@ -7158,7 +7258,7 @@
         </lyric>
       </note>
     </measure>
-    <measure number="41">
+    <measure number="45">
       <attributes/>
     </measure>
   </part>
