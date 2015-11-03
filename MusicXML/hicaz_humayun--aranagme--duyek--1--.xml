@@ -13,20 +13,13 @@
     <measure number="1">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Hicaz-Humayun, Usul: Duyek</words>
+          <words default-y="35">Makam: Hicaz_Humayun, Usul: Duyek</words>
         </direction-type>
         <sound tempo="71"/>
       </direction>
       <attributes>
         <divisions>96</divisions>
-        <key>
-          <key-step>C</key-step>
-          <key-alter>+4</key-alter>
-          <key-accidental>sharp</key-accidental>
-          <key-step>B</key-step>
-          <key-alter>-4</key-alter>
-          <key-accidental>slash-flat</key-accidental>
-        </key>
+        <key/>
         <time>
           <beats>8</beats>
           <beat-type>8</beat-type>
@@ -623,11 +616,22 @@
           <step>F</step>
           <octave>5</octave>
         </pitch>
-        <duration>336</duration>
-        <type>half</type>
+        <duration>144</duration>
+        <type>quarter</type>
         <dot/>
         <lyric name="">
           <text>.</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>192</duration>
+        <type>half</type>
+        <lyric name="">
+          <text></text>
         </lyric>
       </note>
     </measure>
@@ -791,12 +795,24 @@
           <step>B</step>
           <octave>4</octave>
         </pitch>
-        <duration>336</duration>
-        <type>half</type>
+        <duration>144</duration>
+        <type>quarter</type>
         <dot/>
         <accidental>slash-flat</accidental>
         <lyric name="">
           <text>.</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>192</duration>
+        <type>half</type>
+        <accidental>slash-flat</accidental>
+        <lyric name="">
+          <text></text>
         </lyric>
       </note>
     </measure>
