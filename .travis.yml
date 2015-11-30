@@ -1,5 +1,11 @@
 # we only need to point to python for the tests to run
 language: python
+python:
+  - "2.7"
+
+# command to install dependencies
+install: "pip install git+https://github.com/sertansenturk/symbtrdataextractor.git"
 
 # command to run tests
 script: nosetests extras/validatesymbtr.py
+
