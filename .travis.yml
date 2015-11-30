@@ -10,5 +10,5 @@ install:
 # command to run tests
 script: 
   - nosetests extras/unittests/validateformat.py
-  - nosetests extras/unittests/validatecontent.py
+  - nosetests extras/unittests/validatetxtcontent.py
 
