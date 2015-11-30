@@ -4,7 +4,8 @@ python:
   - "2.7"
 
 # command to install dependencies
-install: "pip install git+https://github.com/sertansenturk/symbtrdataextractor.git"
+install:
+  - pip install -r travis_requirements
 
 # command to run tests
 script: nosetests extras/validatesymbtr.py
