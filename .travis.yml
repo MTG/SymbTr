@@ -11,4 +11,5 @@ install:
 script: 
   - nosetests extras/unittests/validateformat.py
   - nosetests extras/unittests/validatetxtcontent.py
+  - nosetests extras/unittests/validatemu2content.py
 
