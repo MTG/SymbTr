@@ -2,6 +2,7 @@ from extras.fileoperations import getFileNamesInDir
 import os
 import json
 import subprocess
+from symbtrdataextractor import extractor
 
 def test_score_numbers():
 	(symbtrtxtnames, symbtrmu2names, symbtrpdfnames, 
