@@ -8,5 +8,7 @@ install:
   - pip install -r extras/unittests/requirements
 
 # command to run tests
-script: nosetests extras/unittests/validatesymbtr.py
+script: 
+  - nosetests extras/unittests/validateformat.py
+  - nosetests extras/unittests/validatecontent.py
 

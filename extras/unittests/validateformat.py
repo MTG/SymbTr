@@ -1,5 +1,4 @@
 from fileoperations.fileoperations import getFileNamesInDir
-from symbtrdataextractor import extractor
 
 import os
 import json
