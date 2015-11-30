@@ -1,4 +1,5 @@
-import fileoperations
+from fileoperations import getFileNamesInDir
+from fileoperations.fileoperations import getFileNamesInDir
 from symbtrdataextractor import extractor
 
 import os
