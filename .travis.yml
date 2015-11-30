@@ -5,7 +5,7 @@ python:
 
 # command to install dependencies
 install:
-  - pip install -r travis_requirements
+  - pip install -r extras/travis_requirements
 
 # command to run tests
 script: nosetests extras/validatesymbtr.py
