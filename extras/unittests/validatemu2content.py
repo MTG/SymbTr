@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from symbtrdataextractor import symbtrreader
-from fileoperations import getFileNamesInDir
+from fileoperations.fileoperations import getFileNamesInDir
 
 import os
 
