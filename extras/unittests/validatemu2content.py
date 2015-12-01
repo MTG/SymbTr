@@ -10,7 +10,7 @@ def test_mu2_header_rows():
 	
 	numErrors = 0
 	numCols = 10
-	colErr = False
+	colNumErr = False
 
 	[mu2filepaths, mu2folders, mu2names] = get_mu2_filenames()
 
@@ -18,7 +18,7 @@ def test_mu2_header_rows():
 		header_row = symbtrreader.readMu2Header(mf)[1]
 		
 		if not len(header_row) == numCols:
-			colErr = True
+			colNumErr = True
 			print mn + ': Number of columns is different than 10!'
 
 		for ii in range(0, len(col_names) + 3):
@@ -43,7 +43,7 @@ def test_mu2_header_rows():
 	if numErrors > 0:
 		print ''
 		print '%d errors in mu2 file header rows' %numErrors
-	assert numErrors == 0 
+	assert (numErrors == 0) or colNumErr 
 
 def get_mu2_filenames():
 	symbTrMu2folder = './mu2/'
