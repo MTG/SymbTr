@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from symbtrdataextractor import symbtrreader
-from fileoperations.fileoperations import getFileNamesInDir
+from fileoperations import getFileNamesInDir
 
 import os
 
@@ -9,20 +9,26 @@ def test_mu2_header_rows():
 		6:u'Çek', 7:u'Söz-1', 8:u'Söz-2'}	
 	
 	numErrors = 0
+	numCols = 10
+	colErr = False
 
 	[mu2filepaths, mu2folders, mu2names] = get_mu2_filenames()
 
 	for mf, mn in zip(mu2filepaths, mu2names):
 		header_row = symbtrreader.readMu2Header(mf)[1]
 		
-		for ii in range(0, len(col_names) + 1):
+		if not len(header_row) == numCols:
+			colErr = True
+			print mn + ': Number of columns is different than 10!'
+
+		for ii in range(0, len(col_names) + 3):
 			if ii in [0, 1]:
 				try: 
 					dummyint = int(header_row[ii])
 				except ValueError:  # not int
 					numErrors += 1
 					print mn + ': ' + str(ii) + 'th column in the header row should have been an integer!'
-			elif ii == len(col_names) + 1:
+			elif ii == len(col_names) + 2:
 				try: 
 					dummyfloat = float(header_row[ii])
 				except ValueError:  # not float
