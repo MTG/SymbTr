@@ -8,7 +8,7 @@ def test_txt_data():
 
 	isAllDataValid = True
 	for tf, tn in zip(txtfilepaths, txtnames):
-		txtdata, isDataValid = extractor.extract(tf)
+		txtdata, isDataValid = extractor.extract(tf, print_warnings=False)
 		isAllDataValid = isDataValid if isAllDataValid else False
 
 	assert(isAllDataValid)
