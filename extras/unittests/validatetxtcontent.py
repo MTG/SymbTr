@@ -8,8 +8,11 @@ def test_txt_data():
 
 	isAllDataValid = True
 	for tf, tn in zip(txtfilepaths, txtnames):
-		txtdata, isDataValid = extractor.extract(tf, print_warnings=False)
-		isAllDataValid = isDataValid if isAllDataValid else False
+		try:
+			txtdata, isDataValid = extractor.extract(tf, print_warnings=False)
+			isAllDataValid = isDataValid if isAllDataValid else False
+		except (RuntimeError, ValueError):  # structure_label errors
+			isAllDataValid = False
 
 	assert(isAllDataValid)
 
