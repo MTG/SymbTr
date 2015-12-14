@@ -11,7 +11,7 @@ def test_txt_data():
 		try:
 			txtdata, isDataValid = extractor.extract(tf, print_warnings=False)
 			isAllDataValid = isDataValid if isAllDataValid else False
-		except (RuntimeError, ValueError):  # structure_label errors
+		except (RuntimeError, ValueError, KeyError):
 			print "Unspecified error in " + tn
 			isAllDataValid = False
 
