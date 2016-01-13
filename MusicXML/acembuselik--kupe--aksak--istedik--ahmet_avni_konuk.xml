@@ -13,7 +13,7 @@
     <measure number="1">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Acembuselik, Usul: Agiraksak</words>
+          <words default-y="35">Makam: Acembuselik, Usul: Aksak</words>
         </direction-type>
         <sound tempo="60"/>
       </direction>
@@ -22,7 +22,7 @@
         <key/>
         <time>
           <beats>9</beats>
-          <beat-type>4</beat-type>
+          <beat-type>8</beat-type>
         </time>
       </attributes>
       <note>
@@ -32,16 +32,18 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="Section0">
+        <lyric name="VOCAL_SECTION">
           <syllabic>single</syllabic>
           <text>Ah </text>
-          <end-line/>
         </lyric>
       </note>
       <note>
         <rest/>
         <duration>48</duration>
         <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -50,7 +52,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>is</text>
         </lyric>
@@ -62,8 +64,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>middle</syllabic>
+        <lyric>
+          <syllabic>end</syllabic>
           <text>te</text>
         </lyric>
       </note>
@@ -74,11 +76,14 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
-          <syllabic>end</syllabic>
+        <lyric>
+          <syllabic>single</syllabic>
           <text>dik </text>
         </lyric>
       </note>
+    </measure>
+    <measure number="2">
+      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -86,7 +91,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>şûh_</text>
         </lyric>
@@ -98,7 +103,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -109,7 +114,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -120,46 +125,46 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
+          <text></text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>48</duration>
+        <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>48</duration>
+        <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>48</duration>
+        <type>eighth</type>
+        <lyric>
           <text></text>
         </lyric>
       </note>
     </measure>
-    <measure number="2">
+    <measure number="3">
       <attributes/>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>48</duration>
-        <type>eighth</type>
-        <lyric name="">
-          <text></text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>48</duration>
-        <type>eighth</type>
-        <lyric name="">
-          <text></text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>48</duration>
-        <type>eighth</type>
-        <lyric name="">
-          <text></text>
-        </lyric>
-      </note>
       <note>
         <pitch>
           <step>D</step>
@@ -167,7 +172,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -175,6 +180,9 @@
         <rest/>
         <duration>48</duration>
         <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -183,7 +191,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>i </text>
         </lyric>
@@ -195,7 +203,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>A</text>
         </lyric>
@@ -207,8 +215,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>middle</syllabic>
+        <lyric>
+          <syllabic>end</syllabic>
           <text>cem</text>
         </lyric>
       </note>
@@ -219,7 +227,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -230,7 +238,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -241,10 +249,13 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="4">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -252,8 +263,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>end</syllabic>
+        <lyric>
+          <syllabic>single</syllabic>
           <text>den </text>
         </lyric>
       </note>
@@ -264,7 +275,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -275,7 +286,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -286,7 +297,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -297,7 +308,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -308,7 +319,7 @@
         </pitch>
         <duration>24</duration>
         <type>16th</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -319,13 +330,10 @@
         </pitch>
         <duration>24</duration>
         <type>16th</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="3">
-      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -333,14 +341,20 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="5">
+      <attributes/>
       <note>
         <rest/>
         <duration>48</duration>
         <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -349,7 +363,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>Bû</text>
         </lyric>
@@ -361,8 +375,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>middle</syllabic>
+        <lyric>
+          <syllabic>end</syllabic>
           <text>se</text>
         </lyric>
       </note>
@@ -373,8 +387,8 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
-          <syllabic>end</syllabic>
+        <lyric>
+          <syllabic>single</syllabic>
           <text>lik </text>
         </lyric>
       </note>
@@ -385,11 +399,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>single</syllabic>
           <text>bir </text>
         </lyric>
       </note>
+    </measure>
+    <measure number="6">
+      <attributes/>
       <note>
         <pitch>
           <step>A</step>
@@ -397,7 +414,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -408,7 +425,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -419,17 +436,17 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="4">
-      <attributes/>
       <note>
         <rest/>
         <duration>96</duration>
         <type>quarter</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -438,7 +455,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>single</syllabic>
           <text>hoş </text>
         </lyric>
@@ -452,7 +469,7 @@
         <duration>48</duration>
         <type>eighth</type>
         <accidental>flat</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -463,10 +480,13 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="7">
+      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -474,7 +494,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>ma</text>
         </lyric>
@@ -487,7 +507,7 @@
         <duration>72</duration>
         <type>eighth</type>
         <dot/>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>kam  </text>
           <end-line/>
@@ -500,9 +520,8 @@
         </pitch>
         <duration>24</duration>
         <type>16th</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -512,9 +531,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -524,9 +542,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -537,11 +554,13 @@
         <duration>144</duration>
         <type>quarter</type>
         <dot/>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="8">
+      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -549,9 +568,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -561,9 +579,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -573,14 +590,10 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
-    </measure>
-    <measure number="5">
-      <attributes/>
       <note>
         <pitch>
           <step>F</step>
@@ -588,15 +601,17 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="Section1">
-          <text></text>
-          <end-line/>
+        <lyric name="VOCAL_SECTION">
+          <text>50</text>
         </lyric>
       </note>
       <note>
         <rest/>
         <duration>48</duration>
         <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -605,11 +620,14 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>Per</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="9">
+      <attributes/>
       <note>
         <pitch>
           <step>F</step>
@@ -617,7 +635,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>de </text>
         </lyric>
@@ -629,7 +647,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>aç</text>
         </lyric>
@@ -641,7 +659,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -654,7 +672,7 @@
         <duration>96</duration>
         <type>quarter</type>
         <accidental>flat</accidental>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>tı </text>
         </lyric>
@@ -666,10 +684,13 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="10">
+      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -677,13 +698,10 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="6">
-      <attributes/>
       <note>
         <pitch>
           <step>G</step>
@@ -691,7 +709,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>single</syllabic>
           <text>nâz </text>
         </lyric>
@@ -703,7 +721,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -714,7 +732,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -725,7 +743,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -736,7 +754,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>i</text>
         </lyric>
@@ -748,7 +766,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -759,7 +777,21 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
+          <text></text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="11">
+      <attributes/>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>48</duration>
+        <type>eighth</type>
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -770,18 +802,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <text></text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>48</duration>
-        <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>le </text>
         </lyric>
@@ -794,7 +815,7 @@
         <duration>48</duration>
         <type>eighth</type>
         <accidental>slash-flat</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -805,7 +826,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -817,7 +838,7 @@
         <duration>48</duration>
         <type>eighth</type>
         <accidental>slash-flat</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -829,7 +850,12 @@
         <duration>72</duration>
         <type>eighth</type>
         <dot/>
-        <lyric name="">
+        <notations>
+          <ornaments>
+            <trill-mark placement="above"/>
+          </ornaments>
+        </notations>
+        <lyric>
           <syllabic>begin</syllabic>
           <text>lût</text>
         </lyric>
@@ -843,7 +869,7 @@
         <duration>24</duration>
         <type>16th</type>
         <accidental>sharp</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -855,7 +881,7 @@
         <duration>48</duration>
         <type>eighth</type>
         <accidental>slash-flat</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -866,10 +892,13 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="12">
+      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -878,7 +907,7 @@
         <duration>72</duration>
         <type>eighth</type>
         <dot/>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -889,13 +918,10 @@
         </pitch>
         <duration>24</duration>
         <type>16th</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="7">
-      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -903,7 +929,7 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -911,6 +937,9 @@
         <rest/>
         <duration>48</duration>
         <type>eighth</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -919,8 +948,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>middle</syllabic>
+        <lyric>
+          <syllabic>end</syllabic>
           <text>fet</text>
         </lyric>
       </note>
@@ -931,10 +960,13 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="13">
+      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -942,8 +974,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>end</syllabic>
+        <lyric>
+          <syllabic>single</syllabic>
           <text>ti </text>
         </lyric>
       </note>
@@ -954,7 +986,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>gös</text>
         </lyric>
@@ -966,7 +998,7 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -977,8 +1009,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
-          <syllabic>middle</syllabic>
+        <lyric>
+          <syllabic>end</syllabic>
           <text>ter</text>
         </lyric>
       </note>
@@ -989,7 +1021,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1000,10 +1032,13 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="14">
+      <attributes/>
       <note>
         <pitch>
           <step>D</step>
@@ -1011,13 +1046,10 @@
         </pitch>
         <duration>96</duration>
         <type>quarter</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="8">
-      <attributes/>
       <note>
         <pitch>
           <step>C</step>
@@ -1026,8 +1058,8 @@
         <duration>72</duration>
         <type>eighth</type>
         <dot/>
-        <lyric name="">
-          <syllabic>end</syllabic>
+        <lyric>
+          <syllabic>single</syllabic>
           <text>di </text>
         </lyric>
       </note>
@@ -1038,7 +1070,7 @@
         </pitch>
         <duration>24</duration>
         <type>16th</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1049,7 +1081,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1060,7 +1092,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1071,7 +1103,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1082,7 +1114,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1093,11 +1125,14 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>begin</syllabic>
           <text>ta</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="15">
+      <attributes/>
       <note>
         <pitch>
           <step>B</step>
@@ -1105,7 +1140,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
         </lyric>
       </note>
@@ -1116,7 +1151,7 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <syllabic>end</syllabic>
           <text>mam  </text>
           <end-line/>
@@ -1129,9 +1164,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -1141,9 +1175,8 @@
         </pitch>
         <duration>48</duration>
         <type>eighth</type>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -1155,9 +1188,8 @@
         <duration>48</duration>
         <type>eighth</type>
         <accidental>sharp</accidental>
-        <lyric name="">
+        <lyric>
           <text></text>
-          <end-line/>
         </lyric>
       </note>
       <note>
@@ -1167,19 +1199,21 @@
         </pitch>
         <duration>192</duration>
         <type>half</type>
-        <lyric name="">
-          <text></text>
-          <end-line/>
+        <lyric>
+          <text>100</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="16">
+      <attributes/>
       <note>
         <rest/>
         <duration>96</duration>
         <type>quarter</type>
+        <lyric>
+          <text></text>
+        </lyric>
       </note>
-    </measure>
-    <measure number="9">
-      <attributes/>
     </measure>
   </part>
 </score-partwise>
