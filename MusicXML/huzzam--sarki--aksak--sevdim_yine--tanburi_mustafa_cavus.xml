@@ -18,7 +18,13 @@
     <measure number="1-0">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Hüzzam, Usul: Aksak, Tempo: 63</words>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>63</per-minute>
+          </metronome>
+        </direction-type>
+        <direction-type>
+          <words default-y="35">Usul: Aksak </words>
         </direction-type>
         <sound tempo="63"/>
       </direction>
@@ -2394,7 +2400,13 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Usul: Düyek, Tempo: 114</words>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>114</per-minute>
+          </metronome>
+        </direction-type>
+        <direction-type>
+          <words default-y="35">Usul: Düyek</words>
         </direction-type>
         <sound tempo="114"/>
       </direction>
@@ -4309,7 +4321,13 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Usul: Aksak, Tempo: 126</words>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>126</per-minute>
+          </metronome>
+        </direction-type>
+        <direction-type>
+          <words default-y="35">Usul: Aksak</words>
         </direction-type>
         <sound tempo="126"/>
       </direction>
