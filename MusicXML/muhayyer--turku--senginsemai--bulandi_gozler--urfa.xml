@@ -18,7 +18,7 @@
     <measure number="1-0">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Muhayyer, Usul: Senginsemâî</words>
+          <words default-y="35">Makam: Muhayyer, Usul: Senginsemâî, Tempo: 48</words>
         </direction-type>
         <sound tempo="48"/>
       </direction>
@@ -3803,23 +3803,15 @@
     <measure number="21-0">
       <attributes>
         <time>
-          <beats>4</beats>
-          <beat-type>4</beat-type>
-        </time>
-        <time>
-          <beats>6</beats>
+          <beats>10</beats>
           <beat-type>4</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35"/>
+          <words default-y="35">Usul: Ağır Aksaksemâî, Tempo: 48</words>
         </direction-type>
-      </direction>
-      <direction placement="above">
-        <direction-type>
-          <words default-y="35"/>
-        </direction-type>
+        <sound tempo="48"/>
       </direction>
       <note>
         <!--symbtr_txt_note_index 270-->
@@ -4086,9 +4078,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="22-0">
-      <attributes/>
       <note>
         <!--symbtr_txt_note_index 290-->
         <pitch>
@@ -4159,6 +4148,9 @@
           <end-line/>
         </lyric>
       </note>
+    </measure>
+    <measure number="22-0">
+      <attributes/>
     </measure>
   </part>
 </score-partwise>

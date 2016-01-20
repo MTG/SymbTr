@@ -17,7 +17,7 @@
     <measure number="1-0">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Pesendîde, Usul: Aksaksemâî</words>
+          <words default-y="35">Makam: Pesendîde, Usul: Aksaksemâî, Tempo: 60</words>
         </direction-type>
         <sound tempo="60"/>
       </direction>
@@ -2272,8 +2272,9 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35"/>
+          <words default-y="35">Usul: Yürüksemâî Ii, Tempo: 65</words>
         </direction-type>
+        <sound tempo="65"/>
       </direction>
       <note>
         <!--symbtr_txt_note_index 179-->
@@ -2984,23 +2985,15 @@
     <measure number="27-0">
       <attributes>
         <time>
-          <beats>4</beats>
-          <beat-type>8</beat-type>
-        </time>
-        <time>
-          <beats>6</beats>
+          <beats>10</beats>
           <beat-type>8</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35"/>
+          <words default-y="35">Usul: Aksaksemâî, Tempo: 60</words>
         </direction-type>
-      </direction>
-      <direction placement="above">
-        <direction-type>
-          <words default-y="35"/>
-        </direction-type>
+        <sound tempo="60"/>
       </direction>
       <note>
         <!--symbtr_txt_note_index 234-->
@@ -3090,9 +3083,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="28-0">
-      <attributes/>
       <note>
         <!--symbtr_txt_note_index 241-->
         <pitch>
@@ -3144,6 +3134,9 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="28-0">
+      <attributes/>
       <note>
         <!--symbtr_txt_note_index 245-->
         <pitch>
@@ -3171,9 +3164,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="29-0">
-      <attributes/>
       <note>
         <!--symbtr_txt_note_index 247-->
         <pitch>
@@ -3286,9 +3276,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="30-0">
-      <attributes/>
       <note>
         <!--symbtr_txt_note_index 256-->
         <rest/>
@@ -3298,6 +3285,9 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="29-0">
+      <attributes/>
     </measure>
   </part>
 </score-partwise>

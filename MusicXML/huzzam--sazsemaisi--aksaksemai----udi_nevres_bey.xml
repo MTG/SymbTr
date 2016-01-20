@@ -17,7 +17,7 @@
     <measure number="1-0">
       <direction placement="above">
         <direction-type>
-          <words default-y="35">Makam: Hüzzam, Usul: Aksaksemâî</words>
+          <words default-y="35">Makam: Hüzzam, Usul: Aksaksemâî, Tempo: 60</words>
         </direction-type>
         <sound tempo="60"/>
       </direction>
@@ -6573,8 +6573,9 @@
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35"/>
+          <words default-y="35">Usul: Yürüksemâî Ii, Tempo: 150</words>
         </direction-type>
+        <sound tempo="150"/>
       </direction>
       <note>
         <!--symbtr_txt_note_index 507-->
@@ -9540,23 +9541,15 @@
     <measure number="83-0">
       <attributes>
         <time>
-          <beats>4</beats>
-          <beat-type>8</beat-type>
-        </time>
-        <time>
-          <beats>6</beats>
+          <beats>10</beats>
           <beat-type>8</beat-type>
         </time>
       </attributes>
       <direction placement="above">
         <direction-type>
-          <words default-y="35"/>
+          <words default-y="35">Usul: Aksaksemâî, Tempo: 114</words>
         </direction-type>
-      </direction>
-      <direction placement="above">
-        <direction-type>
-          <words default-y="35"/>
-        </direction-type>
+        <sound tempo="114"/>
       </direction>
       <note>
         <!--symbtr_txt_note_index 730-->
@@ -9655,9 +9648,6 @@
           <text></text>
         </lyric>
       </note>
-    </measure>
-    <measure number="84-0">
-      <attributes/>
       <note>
         <!--symbtr_txt_note_index 738-->
         <pitch>
@@ -9707,6 +9697,9 @@
           <text></text>
         </lyric>
       </note>
+    </measure>
+    <measure number="84-0">
+      <attributes/>
     </measure>
   </part>
 </score-partwise>
