@@ -1,3 +1,17 @@
+#### *SymbTr v2.4*
+- Corrected and validated the content of 300+ scores, which had note/duration/phrase/section mistakes.
+- Corrected and validated the measure boundaries for the entire collection semi-automatically.
+- Added the usul row to the start of each score
+- New unittests related to score content: Section name checker, rest name checker, measure boundary checker...
+- Regenerated MusicXML files automatically using the first release of [MusicXMLXonverter](https://github.com/burakuyar/MusicXMLConverter).
+- Added new scripts in extras: MusicXMLConversion, SymbTr(Meta)DataExtraction, AutomaticOffsetCorrection ...
+
+#### *SymbTr v2.3*
+- Corrected and validated the makam, form and usul attributes in symbtr filenames, mu2 file headers, MusicBrainz and Dunya. All these attributes are now consistent with each other. 
+- Added unittests to validate scores: score name checker, musicbrainz relation checker, UTF-8 checker for txt and mu2 files, line break checker for txt and mu2 files, mu2 header metadata checker, column name checker for txt and mu2 files, 
+- Corrected the usul time signatures in mu2 file headers. 
+- Fixed several punctiation mistakes
+
 #### *SymbTr v2.2*
 - Added 5 new compositions
 - txt and mu2 formats are now encoded in UTF-8.
