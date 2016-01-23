@@ -2,9 +2,9 @@
 ======
 #### Turkish Makam Music Symbolic Data Collection
 
-*SymbTr* is a collection machine readable symbolic scores aimed at performing computational studies of Turkish Makam music. Currently, the SymbTr collection consists of 2200 pieces from 155 makams, 88 usuls, 56 forms, about 865.000 musical notes and 80 hours nominal playback time. SymbTr is currently the biggest machine readable collection of Turkish makam music.
+*SymbTr* is a collection machine readable symbolic scores aimed at performing computational studies of Turkish Makam music. SymbTr is currently the biggest machine readable collection of Turkish makam music. The latest version of the SymbTr collection consists of 2200 pieces from 155 makams, 88 usuls, 56 forms, about 865.000 musical notes and 80 hours nominal playback time. 
 
-The scores are selected from reliable sources that consists of musical pieces from Turkish art and folk music. Special care has been taken to select works covering a broad historical time span among the ones which are still performed in contemporary practice.
+The scores are selected from reliable sources that consists of musical pieces from Turkish art and folk music. Special care has been taken to select works covering a broad historical time span among the ones which are still performed in the contemporary practice.
 
 SymbTr-scores are provided in text, MusicXML, PDF, MIDI and mu2 formats. MusicXML is a standard open format for exchanging digital sheet music, which can be read by popular music notation software such as MuseScore, Finale and Sibelius. mu2 is a format, which can be read by Mus2, the microtonal notation software.
 
