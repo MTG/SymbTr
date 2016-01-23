@@ -37,4 +37,4 @@ or
 - selecting all notes and clicking on Reset Beam Mode under the Layout menu.
 
 #### How do you generate the MusicXML files?
-We use (MusicXMLConverter)[https://github.com/burakuyar/MusicXMLConverter] package to automatically generate the files using the musical content in the txt files and the metadata stored in the header of the mu2 files. The package is under rapid development and we hope to improve the MusicXML files in the upcoming months.
+We use [MusicXMLConverter](https://github.com/burakuyar/MusicXMLConverter) package to automatically generate the files using the musical content in the txt files and the metadata stored in the header of the mu2 files. The package is under rapid development and we hope to improve the MusicXML files in the upcoming months.
