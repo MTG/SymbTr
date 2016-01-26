@@ -24,7 +24,7 @@ You can use the [symbtrdataextractor package](https://github.com/sertansenturk/s
 #### How can I fetch the metadata in MusicBrainz?
 [symbtrdataextractor](https://github.com/sertansenturk/symbtrdataextractor) can also be called with MBID input, which will query the desired metadata in MusicBrainz. You can obtain the relevant mbid for each composition from the file [symbTr_mbid.json](https://github.com/MTG/SymbTr/blob/master/symbTr_mbid.json). 
 
-#### I would like to synthesize the scores according to the tuning of a relevant performance. Is it possible?
+#### Can I synthesize each score according to the tuning of a relevant performance?
 You can use the [adaptive-tuning](https://github.com/hsercanatli/adaptive-tuning/) package for synthesizing the scores according to the theoretical tuning (Arel-Ezgi-Uzdilek theory) or the tuning performed in a recording.
 
 #### When I open the MusicXML notes in a score editor, the note beams are not connected. How can I fix it?
