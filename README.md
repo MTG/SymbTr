@@ -16,7 +16,7 @@ Frequently Asked Questions
 
 #### Where are the PDFs?
 
-Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the [SymbTr-pdf repository](https://github.com/MTG/SymbTr-pdf). The repository is also added as submodule to this repository.
+Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the [SymbTr-pdf repository](https://github.com/MTG/SymbTr-pdf). The repository is also added as a submodule to this repository.
 
 #### Is there an easy way to get the section information, especially for vocal sections?
 You can use the [symbtrdataextractor package](https://github.com/sertansenturk/symbtrdataextractor) to get the section information.
