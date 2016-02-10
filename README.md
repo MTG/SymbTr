@@ -9,6 +9,7 @@ The scores are selected from reliable sources that consists of musical pieces fr
 SymbTr-scores are provided in text, MusicXML, PDF, MIDI and mu2 formats. MusicXML is a standard open format for exchanging digital sheet music, which can be read by popular music notation software such as MuseScore, Finale and Sibelius. mu2 is a format, which can be read by Mus2, the microtonal notation software.
 
 Please cite the following publication if you use the data collection in your work:
+
 ```M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.```
 
 Frequently Asked Questions
