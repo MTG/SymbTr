@@ -5,11 +5,11 @@ python:
 
 # command to install dependencies
 install:
-  - pip install -r extras/unittests/requirements
+  - pip install -r unittests/requirements
 
 # command to run tests
 script: 
-  - nosetests extras/unittests/validateformat.py
-  - nosetests extras/unittests/validatetxtcontent.py
-  - nosetests extras/unittests/validatemu2content.py
+  - nosetests unittests/validateformat.py
+  - nosetests unittests/validatetxtcontent.py
+  - nosetests unittests/validatemu2content.py
 
