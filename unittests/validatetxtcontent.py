@@ -1,5 +1,5 @@
 from symbtrdataextractor import extractor
-from fileoperations.fileoperations import getFileNamesInDir
+from fileoperations.fileoperations import get_filenames_in_dir
 
 import os
 
@@ -19,4 +19,4 @@ def test_txt_data():
 
 def get_txt_filenames():
 	symbTrTxtfolder = './txt/'
-	return getFileNamesInDir(symbTrTxtfolder, keyword = '*.txt')
+	return get_filenames_in_dir(symbTrTxtfolder, keyword = '*.txt')

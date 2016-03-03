@@ -1,4 +1,4 @@
-from fileoperations.fileoperations import getFileNamesInDir
+from fileoperations.fileoperations import get_filenames_in_dir
 
 import os
 import json
@@ -37,8 +37,8 @@ def test_encoding():
 	symbTrTxtfolder = os.path.join(symbTrfolder, 'txt/')
 	symbTrMu2folder = os.path.join(symbTrfolder, 'mu2/')
 
-	symbtrtxtfiles = getFileNamesInDir(symbTrTxtfolder, keyword = '*.txt')[0]
-	symbtrmu2files = getFileNamesInDir(symbTrMu2folder, keyword = '*.mu2')[0]
+	symbtrtxtfiles = get_filenames_in_dir(symbTrTxtfolder, keyword = '*.txt')[0]
+	symbtrmu2files = get_filenames_in_dir(symbTrMu2folder, keyword = '*.mu2')[0]
 
 	isallvalid = True
 	for txt in symbtrtxtfiles:
@@ -69,23 +69,23 @@ def getsymbtrnames():
 
 	symbTr_work_file = os.path.join(symbTrfolder, 'symbTr_mbid.json')
 
-	symbtrtxtnames = getFileNamesInDir(symbTrTxtfolder, keyword = '*.txt')[2]
+	symbtrtxtnames = get_filenames_in_dir(symbTrTxtfolder, keyword = '*.txt')[2]
 	symbtrtxtnames = [s for s in symbtrtxtnames if not s[0] == '.']
 	symbtrtxtnames = set([os.path.splitext(s)[0] for s in symbtrtxtnames])
 	
-	symbtrmu2names = getFileNamesInDir(symbTrMu2folder, keyword = '*.mu2')[2]
+	symbtrmu2names = get_filenames_in_dir(symbTrMu2folder, keyword = '*.mu2')[2]
 	symbtrmu2names = [s for s in symbtrmu2names if not s[0] == '.']
 	symbtrmu2names = set([os.path.splitext(s)[0] for s in symbtrmu2names])
 
-	symbtrpdfnames = getFileNamesInDir(symbTrPdffolder, keyword = '*.pdf')[2]
+	symbtrpdfnames = get_filenames_in_dir(symbTrPdffolder, keyword = '*.pdf')[2]
 	symbtrpdfnames = [s for s in symbtrpdfnames if not s[0] == '.']
 	symbtrpdfnames = set([os.path.splitext(s)[0] for s in symbtrpdfnames])
 
-	symbtrxmlnames = getFileNamesInDir(symbTrXmlfolder, keyword = '*.xml')[2]
+	symbtrxmlnames = get_filenames_in_dir(symbTrXmlfolder, keyword = '*.xml')[2]
 	symbtrxmlnames = [s for s in symbtrxmlnames if not s[0] == '.']
 	symbtrxmlnames = set([os.path.splitext(s)[0] for s in symbtrxmlnames])
 
-	symbtrmidnames = getFileNamesInDir(symbTrMidfolder, keyword = '*.mid')[2]
+	symbtrmidnames = get_filenames_in_dir(symbTrMidfolder, keyword = '*.mid')[2]
 	symbtrmidnames = [s for s in symbtrmidnames if not s[0] == '.']
 	symbtrmidnames = set([os.path.splitext(s)[0] for s in symbtrmidnames])
 

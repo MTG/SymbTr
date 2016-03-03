@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from symbtrdataextractor import symbtrreader
-from fileoperations.fileoperations import getFileNamesInDir
+from fileoperations.fileoperations import get_filenames_in_dir
 
 import os
 
@@ -48,4 +48,4 @@ def test_mu2_header():
 
 def get_mu2_filenames():
 	symbTrMu2folder = './mu2/'
-	return getFileNamesInDir(symbTrMu2folder, keyword = '*.mu2')
+	return get_filenames_in_dir(symbTrMu2folder, keyword = '*.mu2')
