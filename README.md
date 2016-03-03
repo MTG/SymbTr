@@ -31,6 +31,9 @@ You can use the [symbtrdataextractor repository](https://github.com/sertansentur
 #### Can I synthesize each score according to the tuning of a relevant performance?
 You can use the [adaptive-tuning](https://github.com/hsercanatli/adaptive-tuning/) package for synthesizing the scores according to the theoretical tuning (Arel-Ezgi-Uzdilek theory) or the tuning performed in a recording.
 
+#### Is there a way to automatically divide the scores into phrases?
+You can follow the instructions in the [makam-symbolic-phrase-segmentation](https://github.com/MTG/makam-symbolic-phrase-segmentation) repository to divide the scores into phrases.
+
 #### When I open the MusicXML notes in a score editor, the note beams are not connected. How can I fix it?
 The beams are not currently connected, because we do not include any beam information in the MusicXML files. Ideally the beams should be connected according to the beat locations of the usul of the piece. We plan to add this in a future release.
 
