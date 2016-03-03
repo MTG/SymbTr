@@ -19,6 +19,9 @@ Frequently Asked Questions
 
 Adding the PDFs to the repository would make it fairly bulky. You can download the PDFs from the [SymbTr-pdf repository](https://github.com/MTG/SymbTr-pdf). The repository is also added as a submodule to this repository.
 
+#### Are there any tools to do some basic clean-up, conversion etc. on the SymbTr scores?
+[SymbTr-extras package](https://github.com/MTG/SymbTr-extras/tree/2f26c9b88da71f5cd01abd1a24e51f2284d45872) has many such methods. You can request new features in the [issue page](https://github.com/MTG/SymbTr-extras/issues), if it's not yet available.
+
 #### Is there an easy way to get the section information, especially for vocal sections?
 You can use the [symbtrdataextractor package](https://github.com/sertansenturk/symbtrdataextractor) to get the section information.
 
