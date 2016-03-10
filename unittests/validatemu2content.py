@@ -31,23 +31,21 @@ def test_mu2_header():
                     dummyint = int(header_row[ii])
                 except ValueError:  # not int
                     all_header_rows_valid = False
-                    print mn + ': ' + str(
-                        ii) + 'th column in the header row should have been ' \
-                              'an integer!'
+                    print(mn + ': ' + str(ii) + 'th column in the header ' +
+                          'row should have been an integer!')
             elif ii == len(col_names) + 2:
                 try:
                     dummyfloat = float(header_row[ii])
                 except ValueError:  # not float
                     all_header_rows_valid = False
-                    print mn + ': ' + str(
-                        ii) + 'th column in the header row should have been ' \
-                              'a float!'
+                    print(mn + ': ' + str(ii) + 'th column in the header ' +
+                          'row should have been a float!')
             else:
                 if not header_row[ii] == col_names[ii]:
                     all_header_rows_valid = False
-                    print u'%s: %dth column in the header row should have ' \
-                          u'been named "%s" instead of "%s"' \
-                          % (mn, ii, col_names[ii], header_row[ii])
+                    print(u'%s: %dth column in the header row should have '
+                          u'been named "%s" instead of "%s"'
+                          % (mn, ii, col_names[ii], header_row[ii]))
 
     assert (all_header_rows_valid and all_num_columns_correct and
             all_headers_valid)
