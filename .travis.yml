@@ -6,6 +6,11 @@ python:
 # command to install dependencies
 install:
   - pip install -r unittests/requirements
+  - pip install flake8
+
+# command to run before the tests
+before_script:
+  - "flake8 unittests --ignore=F841"
 
 # command to run tests
 script: 
