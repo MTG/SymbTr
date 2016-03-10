@@ -1,22 +1,24 @@
-from symbtrdataextractor import extractor
+from symbtrdataextractor.SymbTrDataExtractor import SymbTrDataExtractor
 from fileoperations.fileoperations import get_filenames_in_dir
 
-import os
 
 def test_txt_data():
-	[txtfilepaths, txtfolders, txtnames] = get_txt_filenames()
+    [txtfilepaths, txtfolders, txtnames] = get_txt_filenames()
 
-	isAllDataValid = True
-	for tf, tn in zip(txtfilepaths, txtnames):
-		try:
-			txtdata, isDataValid = extractor.extract(tf, print_warnings=False)
-			isAllDataValid = isDataValid if isAllDataValid else False
-		except (RuntimeError, ValueError, KeyError):
-			print "Unspecified error in " + tn
-			isAllDataValid = False
+    is_all_txt_data_valid = True
+    for tf, tn in zip(txtfilepaths, txtnames):
+        try:
+            extractor = SymbTrDataExtractor(print_warnings=False)
+            txtdata, is_txt_data_valid = extractor.extract(tf)
+            is_all_txt_data_valid = is_txt_data_valid \
+                if is_all_txt_data_valid else False
+        except (RuntimeError, ValueError, KeyError):
+            print "Unspecified error in " + tn
+            is_all_txt_data_valid = False
 
-	assert(isAllDataValid)
+    assert is_all_txt_data_valid
+
 
 def get_txt_filenames():
-	symbTrTxtfolder = './txt/'
-	return get_filenames_in_dir(symbTrTxtfolder, keyword = '*.txt')
+    symbtr_txt_folder = './txt/'
+    return get_filenames_in_dir(symbtr_txt_folder, keyword='*.txt')
