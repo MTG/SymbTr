@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from symbtrdataextractor.SymbTrReader import SymbTrReader
+from symbtrdataextractor.reader.Mu2Reader import Mu2Reader
 from fileoperations.fileoperations import get_filenames_in_dir
 
 
@@ -15,7 +15,7 @@ def test_mu2_header():
     [mu2filepaths, mu2folders, mu2names] = get_mu2_filenames()
 
     for mf, mn in zip(mu2filepaths, mu2names):
-        mu2_header, header_row, is_header_valid = SymbTrReader.read_mu2_header(
+        mu2_header, header_row, is_header_valid = Mu2Reader.read_header(
             mf, symbtr_name=mn)
 
         if not is_header_valid:
