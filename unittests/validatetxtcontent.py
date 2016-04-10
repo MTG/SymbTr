@@ -12,7 +12,7 @@ def test_txt_data():
             txtdata, is_txt_data_valid = extractor.extract(tf)
             is_all_txt_data_valid = is_txt_data_valid \
                 if is_all_txt_data_valid else False
-        except (RuntimeError, ValueError, KeyError):
+        except (RuntimeError, ValueError, KeyError, TypeError):
             print "Unspecified error in " + tn
             is_all_txt_data_valid = False
 
