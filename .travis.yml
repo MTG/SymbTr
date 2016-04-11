@@ -10,7 +10,7 @@ install:
 
 # command to run before the tests
 before_script:
-  - "flake8 unittests --ignore=F841"  # for the dummy "try"s in mu2 validation
+  - "flake8 unittests"
 
 # command to run tests
 script: 

@@ -30,14 +30,14 @@ def test_mu2_header():
             for ii in range(0, len(col_names) + 3):
                 if ii in [0, 1]:
                     try:
-                        dummyint = int(header_row[ii])
+                        int(header_row[ii])
                     except ValueError:  # not int
                         all_header_rows_valid = False
                         print('{0:s}: {1:s}th column in the header row should '
                               'have been an integer!'.format(mn, str(ii)))
                 elif ii == len(col_names) + 2:
                     try:
-                        dummyfloat = float(header_row[ii])
+                        float(header_row[ii])
                     except ValueError:  # not float
                         all_header_rows_valid = False
                         print('{0:s}: {1:s}th column in the header row should '
