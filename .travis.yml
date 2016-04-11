@@ -10,11 +10,10 @@ install:
 
 # command to run before the tests
 before_script:
-  - "flake8 unittests --ignore=F841"
+  - "flake8 unittests"
 
 # command to run tests
 script: 
   - nosetests unittests/validateformat.py
   - nosetests unittests/validatetxtcontent.py
   - nosetests unittests/validatemu2content.py
-
