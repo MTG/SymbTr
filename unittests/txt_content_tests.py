@@ -3,7 +3,7 @@ from fileoperations.fileoperations import get_filenames_in_dir
 
 
 def test_txt_data():
-    extractor = SymbTrDataExtractor(print_warnings=False)
+    extractor = DataExtractor(print_warnings=False)
     [txtfilepaths, txtfolders, txtnames] = get_txt_filenames()
 
     is_all_txt_data_valid = True
