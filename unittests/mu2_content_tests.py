@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from symbtrdataextractor.reader.Mu2Reader import Mu2Reader
+from symbtrdataextractor.reader.mu2 import Mu2Reader
 from fileoperations.fileoperations import get_filenames_in_dir
 
 

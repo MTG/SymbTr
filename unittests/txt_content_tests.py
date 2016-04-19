@@ -1,4 +1,4 @@
-from symbtrdataextractor.SymbTrDataExtractor import SymbTrDataExtractor
+from symbtrdataextractor.dataextractor import DataExtractor
 from fileoperations.fileoperations import get_filenames_in_dir
 
 
