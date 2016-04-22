@@ -1,3 +1,9 @@
+#### *SymbTr v2.4.1*
+ - Renamingg 200+ score filenames
+ - Improvements in SymbTr-extras
+ - Added key signature validation
+ - Corrections in several txt and mu2 scores
+
 #### *SymbTr v2.4*
 - Corrected and validated the content of 300+ scores, which had note/duration/phrase/section mistakes.
 - Corrected and validated the measure boundaries for the entire collection semi-automatically.
