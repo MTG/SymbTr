@@ -1,5 +1,5 @@
 #### *SymbTr v2.4.1*
- - Renamingg 200+ score filenames
+ - Renaming 200+ score filenames
  - Improvements in SymbTr-extras
  - Added key signature validation
  - Corrections in several txt and mu2 scores
