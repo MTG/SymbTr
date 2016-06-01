@@ -1,3 +1,7 @@
+#### *SymbTr v2.4.2*
+ - Corrected the lyrics column of several scores
+ - Updated the unittest, extras and requirements
+
 #### *SymbTr v2.4.1*
  - Renaming 200+ score filenames
  - Improvements in SymbTr-extras
