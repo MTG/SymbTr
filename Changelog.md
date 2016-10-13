@@ -1,3 +1,7 @@
+#### *SymbTr v2.4.3*
+ - Added the second lyrics of four music scores
+ - Added Georgi Dzhambazov to contributors
+
 #### *SymbTr v2.4.2*
  - Corrected the lyrics column of several scores
  - Updated the unittest, extras and requirements
