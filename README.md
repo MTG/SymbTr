@@ -36,6 +36,9 @@ You can use the [adaptive-tuning](https://github.com/hsercanatli/adaptive-tuning
 #### Is there a way to automatically divide the scores into phrases?
 You can follow the instructions in the [makam-symbolic-phrase-segmentation](https://github.com/MTG/makam-symbolic-phrase-segmentation) repository to divide the scores into phrases.
 
+#### I want to do all these operations above without a sweat!
+The symbolic analysis modules in [tomato](https://github.com/sertansenturk/tomato) are what you are looking for. Follow the instructions in the [score conversion](https://github.com/sertansenturk/tomato/blob/master/demos/score_conversion_demo.ipynb) and [score analysis](https://github.com/sertansenturk/tomato/blob/master/demos/score_analysis_demo.ipynb) demos for a quick start.
+
 #### When I open the MusicXML notes in a score editor, the note beams are not connected. How can I fix it?
 The beams are not currently connected, because we do not include any beam information in the MusicXML files. Ideally the beams should be connected according to the beat locations of the usul of the piece. We plan to add this in a future release.
 
