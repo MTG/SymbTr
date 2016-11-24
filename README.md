@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/20578855.svg)](https://zenodo.org/badge/latestdoi/20578855) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ff69b4.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 *SymbTr*
 ======
 #### Turkish Makam Music Symbolic Data Collection
@@ -45,3 +47,7 @@ or
 
 #### How do you generate the MusicXML files?
 We use the [MusicXMLConverter](https://github.com/burakuyar/MusicXMLConverter) package to automatically generate the files using the musical content in the txt files and the metadata stored in the header of the mu2 files. The package is under rapid development and we hope to improve the MusicXML files in the upcoming months.
+
+<a name="License"></a>License
+--------------------
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
