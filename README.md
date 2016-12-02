@@ -12,7 +12,7 @@ SymbTr-scores are provided in text, MusicXML, PDF, MIDI and mu2 formats. MusicXM
 
 Please cite the following publication if you use the data collection in your work:
 
-```M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.```
+> M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.
 
 Frequently Asked Questions
 --------------
