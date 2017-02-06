@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/20578855.svg)](https://zenodo.org/badge/latestdoi/20578855) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ff69b4.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 *SymbTr*
 ======
 #### Turkish Makam Music Symbolic Data Collection
@@ -10,7 +12,7 @@ SymbTr-scores are provided in text, MusicXML, PDF, MIDI and mu2 formats. MusicXM
 
 Please cite the following publication if you use the data collection in your work:
 
-```M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.```
+> M. Kemal Karaosmanoğlu. A Turkish makam music symbolic database for music information retrieval: SymbTr. In Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR), pages 223–228, 2012.
 
 Frequently Asked Questions
 --------------
@@ -34,6 +36,9 @@ You can use the [adaptive-tuning](https://github.com/hsercanatli/adaptive-tuning
 #### Is there a way to automatically divide the scores into phrases?
 You can follow the instructions in the [makam-symbolic-phrase-segmentation](https://github.com/MTG/makam-symbolic-phrase-segmentation) repository to divide the scores into phrases.
 
+#### I want to do all these operations above without a sweat!
+The symbolic analysis modules in [tomato](https://github.com/sertansenturk/tomato) are what you are looking for. Follow the instructions in the [score conversion](https://github.com/sertansenturk/tomato/blob/master/demos/score_conversion_demo.ipynb) and [score analysis](https://github.com/sertansenturk/tomato/blob/master/demos/score_analysis_demo.ipynb) demos for a quick start.
+
 #### When I open the MusicXML notes in a score editor, the note beams are not connected. How can I fix it?
 The beams are not currently connected, because we do not include any beam information in the MusicXML files. Ideally the beams should be connected according to the beat locations of the usul of the piece. We plan to add this in a future release.
 
@@ -45,3 +50,7 @@ or
 
 #### How do you generate the MusicXML files?
 We use the [MusicXMLConverter](https://github.com/burakuyar/MusicXMLConverter) package to automatically generate the files using the musical content in the txt files and the metadata stored in the header of the mu2 files. The package is under rapid development and we hope to improve the MusicXML files in the upcoming months.
+
+<a name="License"></a>License
+--------------------
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

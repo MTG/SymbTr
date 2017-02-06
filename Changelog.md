@@ -17,7 +17,7 @@
 - Corrected and validated the measure boundaries for the entire collection semi-automatically.
 - Added the usul row to the start of each score
 - New unittests related to score content: Section name checker, rest name checker, measure boundary checker...
-- Regenerated MusicXML files automatically using the first release of [MusicXMLXonverter](https://github.com/burakuyar/MusicXMLConverter).
+- Regenerated MusicXML files automatically using the first release of [MusicXMLConverter](https://github.com/burakuyar/MusicXMLConverter).
 - Added new scripts in extras: MusicXMLConversion, SymbTr(Meta)DataExtraction, AutomaticOffsetCorrection ...
 
 #### *SymbTr v2.3*
