@@ -59,6 +59,7 @@ def test_mu2_header():
     assert all_num_columns_correct, 'Incorrect number of columns'
     assert all_headers_valid, 'Invalid header values'
 
+
 def test_mu2_num_cols():
     num_columns = 10
 
@@ -75,6 +76,7 @@ def test_mu2_num_cols():
                     all_num_columns_correct = False
 
     assert all_num_columns_correct, 'Incorrect number of columns'
+
 
 def get_mu2_filenames():
     symbtr_mu2_folder = './mu2/'
