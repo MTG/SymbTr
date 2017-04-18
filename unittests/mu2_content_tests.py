@@ -68,7 +68,8 @@ def test_mu2_num_cols():
 
     for mf, mn in zip(mu2filepaths, mu2names):
         with open(mf, 'r') as csvfile:
-            reader = csv.reader(csvfile, delimiter='\t')
+            reader = csv.reader(csvfile, delimiter='\t',
+                                quoting=csv.QUOTE_NONE)
             for ii, row in enumerate(reader):
                 if not len(row) == num_columns:
                     print '{}: Row {:d} has {:d} columns'.format(
