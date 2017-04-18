@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from symbtrdataextractor.reader.mu2 import Mu2Reader
 from fileoperations.fileoperations import get_filenames_in_dir
+import csv
 
 
 def test_mu2_header():
@@ -58,6 +59,22 @@ def test_mu2_header():
     assert all_num_columns_correct, 'Incorrect number of columns'
     assert all_headers_valid, 'Invalid header values'
 
+def test_mu2_num_cols():
+    num_columns = 10
+
+    [mu2filepaths, mu2folders, mu2names] = get_mu2_filenames()
+    all_num_columns_correct = True
+
+    for mf, mn in zip(mu2filepaths, mu2names):
+        with open(mf, 'r') as csvfile:
+            reader = csv.reader(csvfile, delimiter='\t')
+            for ii, row in enumerate(reader):
+                if not len(row) == num_columns:
+                    print '{}: Row {:d} has {:d} columns'.format(
+                        mn, ii, len(row))
+                    all_num_columns_correct = False
+
+    assert all_num_columns_correct, 'Incorrect number of columns'
 
 def get_mu2_filenames():
     symbtr_mu2_folder = './mu2/'
