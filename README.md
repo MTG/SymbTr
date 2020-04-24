@@ -51,6 +51,14 @@ or
 #### How do you generate the MusicXML files?
 We use the [MusicXMLConverter](https://github.com/burakuyar/MusicXMLConverter) package to automatically generate the files using the musical content in the txt files and the metadata stored in the header of the mu2 files. The package is under rapid development and we hope to improve the MusicXML files in the upcoming months.
 
+#### The text is not rendered correctly when the mu2 files are opened in Mus2. How can I fix it?
+The mu2 files in this repo has been stored in UTF-8 encoding since [SymbTr v2.2](https://github.com/MTG/SymbTr/releases/tag/v2.2) for compatibility with modern standards. However, Mus2 does not support UTF-8 encoding yet.
+
+Possible solutions are:
+- You can open the mu2 files in a modern text reader (such as Sublime text or Visual Studio code) and manually convert the files to either ISO 8859-9 or Windows 1254 encoding.
+- You can automate the above step programmatically, e.g. using `iconv` in bash.
+- You can use [SymbTr v2.1](https://github.com/MTG/SymbTr/releases/tag/v2.1), however, this version is quite outdated.
+
 <a name="License"></a>License
 --------------------
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a><br/> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
